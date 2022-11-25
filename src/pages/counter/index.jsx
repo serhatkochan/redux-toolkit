@@ -6,7 +6,6 @@ import styles from './Counter.module.css';
 const {
     counter: {decrement, increment, incrementByAmount, incrementAsync, incrementIfOdd, selectCount}
 } = reducers;
-
 export function Counter() {
     const count = useAppSelector(selectCount);
     // const dispatch = useAppDispatch();
